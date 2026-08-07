@@ -10,7 +10,7 @@ app.get('/health', (req, res) => {
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hello from CI/CD - deployed automatically!</h1>
+    <h1>Hello from CI/CD - deployed automatically!  By Hetansh-Pathak</h1>
     <p>Running in a Docker container on: ${new Date().toISOString()}</p>
   `);
 });
