@@ -1,0 +1,14 @@
+{
+  "name": "cicd-docker-demo",
+  "version": "1.0.0",
+  "description": "Automated CI/CD Pipeline with Docker & GitHub Actions - demo app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "echo 'no build step needed for plain JS - skip'",
+    "test": "echo 'no tests yet' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
